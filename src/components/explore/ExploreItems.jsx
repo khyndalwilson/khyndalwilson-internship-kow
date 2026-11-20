@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react" 
 import { Link } from "react-router-dom";
-import nftImage from "../../images/nftImage.jpg";
 import NFTCard from "../UI/NFTCard";
 import Skeleton from "../UI/Skeleton";
 import axios from "axios";
