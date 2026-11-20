@@ -7,7 +7,7 @@ const NFTCard = ({ item }) => {
     <div className="nft__item">
       <div className="author_list_pp">
         <Link 
-        to={`/author/${item.authorId}`}
+        to={`/author/${item.authorId ?? item.author}`}
         data-bs-toggle="tooltip"
         data-bs-placement="top"
         title={item.authorName}
